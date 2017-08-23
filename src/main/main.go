@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"./sorts"
 )
 
 func main() {
@@ -10,8 +9,6 @@ func main() {
 	fmt.Println(array)
 	Arr(array[:])
 	fmt.Println(array)
-	array = sorts.Qsort(array[:])
-	//sorts.Quicksort(array[:])
 }
 
 func Arr(array []int) {
